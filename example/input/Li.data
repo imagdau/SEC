@@ -1,0 +1,31 @@
+LAMMPS data file Created by Octave
+
+       1 atoms
+       0 bonds
+       0 angles
+       0 dihedrals
+       0 impropers
+
+       1 atom types
+       0 bond types
+       0 angle types
+       0 dihedral types
+       0 improper types
+
+ -100.000000  100.000000 xlo xhi
+ -100.000000  100.000000 ylo yhi
+ -100.000000  100.000000 zlo zhi
+    0.000000    0.000000    0.000000 xy xz yz
+
+Masses
+
+       1      6.941
+
+Pair Coeffs
+
+       2      0.4000   1.4000000
+
+Atoms
+
+       1       1       1      +1.000           0.00000   0.00000   0.00000
+      
