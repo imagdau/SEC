@@ -1,7 +1,7 @@
 clear all;
 crash_dumps_octave_core(0);
 warning off;
-addpath(genpath("src"));
+addpath(genpath("octave-src"));
 
 minDist = 2.3;
 N = 3;
@@ -44,5 +44,5 @@ pair_types = [repmat(litp,size(pair_types));pair_types](:);
 ptps = sprintf('%d ',pair_types);
 jobname = sprintf("md-%04d",j);
 printf('run with: mpirun -np 4 lmp_mpi -var fid %s -var astr "%s" -var litp %d -var ptps "%s" -var seed ${RANDOM} -in md.input\n',jobname,atomstr,litp,ptps);
-system('cp example/input/md.input example/MD-sims/md.input');
+system('cp lammps-scripts/md.input example/MD-sims/md.input');
 
