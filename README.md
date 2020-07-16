@@ -4,13 +4,10 @@ Details of this work are published at zzzzz. The analysis for ProDOT-2Hex neat, 
 The project consists of three components:
 
 
-1) generating single-ion trajectories, starting from the an equilibrium simulations using <genMDinput.m>
-  
-  The code takes as input <seed.data> and <Li.data> (example/input) which are Lammps topology files.
-  
-  The code generates <md-*.data> files where the ion (in this case Li) is initialized at random wihtin the equilibrium <seed> simulation box.
-  
-  The trajectories are carried out with Lammps, using the template input script supplied in <lammps-scripts>. Each run generates *.rdf *.eng and *.msd files which correspond to radial distribution functions, binding energy and mean square displacement.
+1) generating single-ion trajectories, starting from the an equilibrium simulations using <genMDinput.m> 
+  The code takes as input <seed.data> and <Li.data> (example/input) which are Lammps topology files. 
+  The code generates <md-*.data> files where the ion (in this case Li) is initialized at random wihtin the equilibrium <seed> simulation box. 
+  The trajectories are carried out with Lammps, using the template input script supplied in <lammps-scripts>. Each run generates *.rdf *.eng and *.msd files which correspond to radial distribution functions, binding energy and mean square displacement. 
   
   A simple vmd script is supplied (vmd-scripts) to visualize the Lammps data files using: vmd -e visdata.tcl -args illus.data.
   
