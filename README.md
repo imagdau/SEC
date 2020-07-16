@@ -4,7 +4,7 @@ Details of this work are published at zzzzz. The analysis for ProDOT-2Hex neat, 
 The project consists of three components:
 
 
-  1) generating single-ion trajectories, starting from the an equilibrium simulations using <genMDinput.m>
+1) generating single-ion trajectories, starting from the an equilibrium simulations using <genMDinput.m>
   
   The code takes as input <seed.data> and <Li.data> (example/input) which are Lammps topology files.
   
@@ -15,12 +15,12 @@ The project consists of three components:
   A simple vmd script is supplied (vmd-scripts) to visualize the Lammps data files using: vmd -e visdata.tcl -args illus.data.
   
   
-  2) reading the output trajectories and packinging the data into objects <vecs> using <anlMDoutput.m>
+2) reading the output trajectories and packinging the data into objects <vecs> using <anlMDoutput.m>
   
   The code reads the Lammps output from <example/MD-sims> and creates object <vecs> which is written to <example/SEC-ML>
   
   
-  3) classifying the solvation environments (SEs) based on rdf feature vectors using <classifySEs.py>
+3) classifying the solvation environments (SEs) based on rdf feature vectors using <classifySEs.py>
   
   The code reads the <vecs> object and uses UMAP to embed the data in a 2D latent space.
   
