@@ -1,5 +1,5 @@
 The code supplied here can be used to classify and characterize solvation einvironments in the condensed phase, based on all-atom Lammps simulations.
-Details of this work are published at zzzzz. The analysis for ProDOT-2Hex neat, presented in the paper, is uploaded here in the example directory.
+Details of this work are published at <https://doi.org/10.1021/acs.macromol.0c02132>. The analysis for ProDOT-2Hex neat, presented in the paper, is uploaded here in the example directory.
 
 The project consists of three components:
 
